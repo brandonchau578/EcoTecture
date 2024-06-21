@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body {
+    height: 100%;
+    overflow-x:scroll;
+}
+.body{
+    padding:0px 10%;
+    display:flex;
+    flex-direction:column;
+    color:black;
+    font-weight:bold;
+    padding-top:30px;
+    margin-top:10%;
+    background-color:white;
+}
+.body p{
+    color:gray;
+    font-size: 12px;
+
+}
+.SuggestionWheel{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    padding-top:200px;
+    color:black;
+}
+.SuggestionBox{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height:250px;
+    width:325px;
+    background:white;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    float:left;
+    border-radius:20px;
+    margin: 20px 10px;
+}
