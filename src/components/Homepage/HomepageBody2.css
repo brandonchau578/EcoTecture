@@ -1,0 +1,35 @@
+.Recomendation-container{
+    background-color:#e9e9e9;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+
+}
+.Recomendation-box{
+    display: flex;
+    height: 400px;
+    width:325px;
+    background:white;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    border-radius:20px;
+    margin: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 10px;
+}
+.BoxH1{
+    margin-bottom:20px;
+}
+.BoxDescription{
+    margin-top: 60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding:10px 10px;
+    text-align:center;
+}
+.BoxButton{
+    margin-top: 20%;
+}
