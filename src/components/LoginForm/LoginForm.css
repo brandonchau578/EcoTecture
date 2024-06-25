@@ -42,25 +42,50 @@ body,html{
     align-items:center;
     justify-content: center;
     gap:10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
 .LoginInfo{
     margin-bottom:10px;
     justify-content:center;
     align-items:center;
-    display:flex;
+    display:inline-block;
     flex-direction:column;
 }
+.LoginHeader{
+    align-self:flex-start;
+    margin-left:10%;
+    font-size:16px;
+}
+button.LoginInfo{
+    width:50%;
+    height: 5%;
+    border-radius:20px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    transition:background-color 0.3s, color 0.3s;
+    font-size:16px;
+}
+button.LoginInfo:hover{
+    background-color:#891bcd;
+    color:white;
+}
+
 .LoginUser{
-width:80%;
-height:10%;
-border:none;
-outline:none;
-border: 2px solid rgba(255,255,255, .2);
-border-radius:40px;
-font-size:16px;
-display:flex;
-justify-content:space-between;
-right:20px;
-padding:20px 45px 20px 20px;
+    width:80%;
+    height:10%;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius:20px;
+    font-size:16px;
+    display:flex;
+    justify-content:space-between;
+    right:20px;
+    padding:20px 45px 20px 20px;
+}
+.SignedInContainer{
+    display:flexbox;
+    align-items:center;
 }
