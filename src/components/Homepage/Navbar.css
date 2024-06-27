@@ -14,6 +14,7 @@ body{
 nav{
     background-color:white;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    border-bottom:#A020F0
 }
 nav ul{
     width:100%;
@@ -58,7 +59,7 @@ nav li:first-child{
     display:none;
     flex-direction:column;
     align-items: flex-start;
-    justify-content: flex-start
+    justify-content: flex-start;
 }
 
 .sidebar li{

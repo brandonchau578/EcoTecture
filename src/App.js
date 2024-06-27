@@ -2,6 +2,7 @@ import './App.css';
 import Homepage from './components/Homepage/Homepage.jsx';
 import LoginForm from './components/LoginForm/LoginForm.jsx';
 import Layout from "./Routes/Layout/Layout.jsx";
+import BuyPage from './components/Buypage/BuyPage';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,6 +23,10 @@ function App() {
         {
           path: "/Login",
           element: <LoginForm />,
+        },
+        {
+          path: "/Buy",
+          element: <BuyPage />,
         },
       ]
     },
