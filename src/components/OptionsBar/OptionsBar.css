@@ -1,0 +1,38 @@
+.SearchBarContainer{
+    display:flex;
+    flex-direction:row;
+    background:white;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    position:relative;
+    width:100%;
+}
+.SearchBar{
+    display:flex;
+    width: 30%;
+    height: 50px;
+    padding-left:10px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    outline-color: #A020F0;
+    margin-left:120px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.SearchIcon{
+    padding: 7px; /* Adjusted padding for icon spacing */
+    cursor: pointer;
+    background: white; /* Background color for the icon container */
+    border: 1px solid gray; /* Border around the icon container */
+    border-left:none;
+    border-radius: 0 10px 10px 0;
+    align-items: center;
+    display:flex;
+    
+}
+.SearchIcon:hover{
+    color:#A020F0
+}
