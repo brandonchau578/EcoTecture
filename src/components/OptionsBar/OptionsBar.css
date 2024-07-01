@@ -1,4 +1,4 @@
-.SearchBarContainer{
+.OptionsBarContainer{
     display:flex;
     flex-direction:row;
     background:white;
@@ -35,4 +35,50 @@
 }
 .SearchIcon:hover{
     color:#A020F0
+}
+.HouseOptions{
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+}
+#type{
+    height:50px;
+    width:100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    border-radius: 10px;
+}
+.CustomSelect {
+    height: 50px;
+    border-radius: 10px;
+    outline-color: #A020F0;
+    padding: 5px;
+    background-color: white;
+    font-size: 16px;
+    color: #333;
+}
+.react-select__control {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.react-select__menu {
+border-radius: 5px;
+}
+
+.react-select__option--is-selected {
+background-color: #A020F0;
+color: #A020F0;
+}
+
+.react-select__option--is-focused {
+background-color: #A020F0;
+color: #A020F0;
+}
+.CustomSelect.highlighted .react-select__control {
+border: 2px solid #A020F0;
+box-shadow: 0 0 5px #A020F0;
+background-color:rgba(160, 32, 240, 0.1);
 }
