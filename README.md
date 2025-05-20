@@ -1,12 +1,37 @@
-# React + Vite
+# EcoTecture 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EcoTecture is a web-based platform that promotes sustainable architectural design and eco-friendly living. The goal is to inspire users to think green and make environmentally conscious decisions when designing or improving spaces.
 
-Currently, two official plugins are available:
+## 🌍 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse eco-friendly architectural ideas and inspiration
+- Learn about sustainable materials and technologies
+- Interactive design elements with a user-friendly interface
+- Educational resources on green building practices
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, HTML, CSS
+- **Backend:** Node.js, Express (optional)
+- **Database:** MongoDB (if applicable)
+- **APIs:** OpenCage, Google, Air Quality API, EPA 
+- **Other Tools:** Git, GitHub
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/brandonchau578/EcoTecture.git
+2. Navigate into the project folder
+    cd EcoTecture
+3. Install Dependencies
+    npm install
+4. Start the Development Server
+    npm start
